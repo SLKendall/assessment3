@@ -36,3 +36,18 @@ input {
 img {
 	max-width: 300px;
 }
+
+#mandatory-buttons{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+
+}
+
+.buttons {
+	background-color:rgb(236, 216, 33);
+	color: rgb(255, 255, 255);
+	border:2px solid teal;
+	padding: 10px 20px;
+	font-size: 18px;
+}
